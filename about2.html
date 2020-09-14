@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title><H>
+        Contact Us
+    </H></title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+
+    <!-- Custom CSS-->
+    <link href="about2.css" rel="stylesheet" type="text/css">
+    
+    <!--AOS CSS CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/49a30be9eb.js" crossorigin="anonymous"></script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+
+</head>
+<body>
+  
+    <section class="contact">
+        <div class="text-content">
+          <h1 data-aos="flip-up">Get in Touch</h1>
+          <p data-aos="flip-down">If you need help just write</p>
+        </div>
+        <div class="map-content">
+          <div id="map"></div>
+        </div>
+         <div data-aos="fade-right" class="contact-form">
+           <div class="card">
+             <span data-aos="flip-right" class="card-title">Get in Touch</span>
+             <div class="card-content">
+               <form id="myform" onsubmit="return validation()">
+                 <div data-aos="flip-right" data-aos-delay="300">
+                  <input type="text" id="name" placeholder="Name">
+                 </div>
+                 <div data-aos="flip-right" data-aos-delay="400">
+                  <input type="text" id="email" placeholder="Email">
+                 </div>
+                 <div data-aos="flip-right" data-aos-delay="500">
+                  <textarea type="text" id="msg" placeholder="Message"></textarea>
+                 </div>
+                 <input type="submit" data-aos="flip-right" data-aos-delay="600" class="btn waves-effect">
+               </form>
+             </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="social-f">
+          <a href="#" class="icons"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="icons"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="icons"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="icons"><i class="fab fa-behance"></i></a>
+          <a href="#" class="icons"><i class="fab fa-pinterest-square"></i></a>
+        </div>
+        <div class="copyright-f">
+          <p class="copyright"><i class="fa fa-hear red-text"></i> <a href="index.html">Laxmi Products</a></p>
+        </div>
+      </footer>
+
+      <!-- Google Maps API
+      <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmKTHcaBzxzV5EIG0Iy0L0IP4Q37DphTI&callback=initMap">
+      </script> -->
+
+
+    <!--AOS JS CDN-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--Custom JavaScript-->
+    <script src="about2.js"></script>
+    <script src="validation.js"></script>
+
+    <!--Google Maps API-->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB46jw9ayYN0RB7yN9Jvk7AHzWnRtdsDTU&callback=initMap">
+    </script>
+</body>
+    </html>
