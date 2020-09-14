@@ -1,0 +1,159 @@
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header1 {
+    text-align: center;
+    display: inline;
+
+}
+ul li{
+    display: inline;
+    padding-left:13%
+    
+}
+
+.navi{
+    display: inline;
+    padding-left: 20%;
+    padding-top:7%;
+}
+.hl{
+    font-size: 20px;
+}
+.shanki {
+    height: 80px;
+    width: 80px;
+}
+.box {
+    width :450px;
+    background: rgba(255,255,255, 0.5);
+    padding:40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: :white;
+    font-family:'Century Gothic', sans-serif;
+    
+}
+
+.box-img {
+    border-radius: 50%;
+    width: 220px;
+    height: 275px;
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.box h5 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.box p{
+    text-align: justify;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box li{
+    display: inline-block;
+    margin:6px;
+    list-style:none;
+}
+
+.box li a.facebook{
+    background-image: url(images/face.jpg.svg);
+    text-decoration: none;
+    font-size: 50px;
+    
+    
+    transition: all ease-in-out 250ms;
+}
+.box li a.insta{
+    background-image: url(images/insta.jpg.svg);
+    text-decoration: none;
+    font-size: 50px;
+    
+    
+    transition: all ease-in-out 250ms;
+}
+
+    
+.box li a.button{
+    font-size: 20px;
+    text-decoration: none;
+    background: #fc3;
+    background: linear-gradient(#fc3, #f91);
+    border: solid 1px #999;
+    
+    color:midnightblue;
+    padding:10px 20px;
+    margin:10px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    
+}
+    
+.box li a.button:hover{
+    
+    text-decoration: none;
+    color: black;
+    border-color:#888;
+    text-shadow:0 1px 2px rgba(0,0,0,0.9);
+    background: #f91;
+    background: linear-gradient(to top,#fc3, #f91)
+    
+}
+
+
+.box li a.button:active{
+    position:relative;
+    top:2px;
+    text-decoration: none;
+    color: black;
+    border-color:#888;
+    text-shadow:0 1px 2px rgba(0,0,0,0.9);
+    background: #f91;
+    background: linear-gradient(to top,#fc3, #f91);
+}
+
+nav ul li a::before,
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    width:100%;
+    height:2px;
+    background-color: crimson;
+    left:0;
+    transform: scaleX(0);
+    transition: all .5s;
+}
+nav ul li a::before{
+    top:0;
+    transform-origin: left;
+}
+
+
+nav ul li a::after{
+    bottom:0;
+    transform-origin: right;
+}
+
+nav ul li a:hover::before,
+nav ul li a:hover::after{
+    transform: scaleX(1);
+}
+
+
+
+
